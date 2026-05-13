@@ -24,4 +24,3 @@ file = o.read()
 print(file)
 o.close()
 
-bot.run("MTQ4ODk3ODc5NTc3OTMzMDA5MA.GD-Yag.eYyxTZ61EVtsDazI5iZgEMnxlmdmwmjg15CnTo")
