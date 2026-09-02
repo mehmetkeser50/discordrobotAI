@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" conten t="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <title>Formun Sonuçları</title>
+</head>
+<header class="header">
+    <div class="header__text">
+        <h1>Evinizin enerji verimliliğini hesaplayın!</h1>
+        <p>Girişimde bulunun ve aşırı enerji tüketimi sorununu çözün!</p>
+    </div>
+</header>
+<main>
+
+    <body>
+        {% block content %}
+        <h1 class="main__title main__title--margin">Formun doldurduğunuz için teşekkür ederiz!</h1>
+        <p  class="main__title main__title--margin">==========================================[📝Yazdığınız Bilgileriniz Aşağıdadır⬇️]========================================== </p>
+        <p class="main__title main__title--margin">⭐Adınız : {{ name }}</p>
+        <p class="main__title main__title--margin">📧E-Posta Adresiniz : {{ posta }}</p>
+        <p class="main__title main__title--margin">🌏Adresiniz : {{ address }}</p>
+        <p class="main__title main__title--margin">📆Tarihi : {{ date }}</p>
+        <p class="main__title main__title--margin">🏡Ev Adresiniz : {{ ev }}</p>
+
+ 
+        {% endblock %}
+    </body>
+
+</html>
