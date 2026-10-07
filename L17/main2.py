@@ -1,6 +1,6 @@
 import discord
 from discord.ext import commands
-from model import get_class
+from L17.main2 import get_class
 import os, random
 import requests
 
@@ -36,4 +36,4 @@ async def check(ctx):
     else:
         await ctx.send("You forgot to upload the image :(")
 
-bot.run("Token")
+bot.run("MTU0NzMxODgxNjU2Mjg4MDU3Mg.GmwL7_.iIcKa8bf__HnjDXSi3eVM_TBIW_gaVFO_6Zl0Y")
